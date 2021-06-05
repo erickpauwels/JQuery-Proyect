@@ -1,0 +1,27 @@
+footer{
+    width: 80%;
+    margin: 0 auto;
+    height: 50px;
+    display: flex;
+    margin-top: 30px;
+    background: rgba(73, 73, 73, 0.596);    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+    p{
+        color: $clear;
+        font-size: 1.1rem;
+    }
+    .social_network{
+        display: flex;
+        justify-content: space-between;
+        width: 10%;
+        a{
+        text-decoration: none;
+        color: $clear;
+        }   
+    }
+    .subir{
+        color: $clear;
+        text-decoration: none;
+    }
+}

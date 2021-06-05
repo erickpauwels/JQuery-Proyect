@@ -1,0 +1,472 @@
+#section2 #articles_container #article .comments, #section2 #articles_container #article #btn_more, #section2 #description #form .btn_form, #contact #form .btn_form {
+  background: #0a990a;
+  font-size: 18px;
+  color: white;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#section2 #articles_container #article .comments:hover, #section2 #articles_container #article #btn_more:hover, #section2 #description #form .btn_form:hover, #contact #form .btn_form:hover {
+  cursor: pointer;
+  background: #0a790a;
+}
+
+body.red #section2 #articles_container #article .comments, #section2 #articles_container #article body.red .comments, body.red #section2 #articles_container #article #btn_more, #section2 #articles_container #article body.red #btn_more, body.red #section2 #description #form .btn_form, #section2 #description #form body.red .btn_form, body.red #contact #form .btn_form, #contact #form body.red .btn_form {
+  background: #ff4646;
+}
+
+body.red #section2 #articles_container #article .comments:hover, #section2 #articles_container #article body.red .comments:hover, body.red #section2 #articles_container #article #btn_more:hover, #section2 #articles_container #article body.red #btn_more:hover, body.red #section2 #description #form .btn_form:hover, #section2 #description #form body.red .btn_form:hover, body.red #contact #form .btn_form:hover, #contact #form body.red .btn_form:hover {
+  cursor: pointer;
+  background: #9e2b2b;
+}
+
+body.blue #section2 #articles_container #article .comments, #section2 #articles_container #article body.blue .comments, body.blue #section2 #articles_container #article #btn_more, #section2 #articles_container #article body.blue #btn_more, body.blue #section2 #description #form .btn_form, #section2 #description #form body.blue .btn_form, body.blue #contact #form .btn_form, #contact #form body.blue .btn_form {
+  background: #4646ff;
+}
+
+body.blue #section2 #articles_container #article .comments:hover, #section2 #articles_container #article body.blue .comments:hover, body.blue #section2 #articles_container #article #btn_more:hover, #section2 #articles_container #article body.blue #btn_more:hover, body.blue #section2 #description #form .btn_form:hover, #section2 #description #form body.blue .btn_form:hover, body.blue #contact #form .btn_form:hover, #contact #form body.blue .btn_form:hover {
+  cursor: pointer;
+  background: #3434bb;
+}
+
+#section2 #description h2, #section2 #description #form h2 {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+body.red {
+  background-image: url(../assets/rojo.jpg);
+}
+
+body.blue {
+  background-image: url(../assets/cielo.jpg);
+}
+
+#about_me h2, #section2 #articles_container #article #articles_head h2, #section2 #clock h2, #section2 #clock #reloj {
+  font-size: 40px;
+  color: #3b3b3b;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../assets/hojas.jpg);
+  background-size: cover;
+}
+
+body.red header #h1_container h1 {
+  background: #ff4646;
+}
+
+body.red header nav ul li:hover {
+  background: #ff4646;
+}
+
+body.blue header #h1_container h1 {
+  background: #4646ff;
+}
+
+body.blue header nav ul li:hover {
+  background: #4646ff;
+}
+
+body.green {
+  background-image: url(../assets/hojas.jpg);
+}
+
+body.green header #h1_container h1 {
+  background: #0a990a;
+}
+
+body.green header nav ul li:hover {
+  background: #0a990a;
+}
+
+body #main {
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+  background: white;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+header #h1_container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+header #h1_container h1 {
+  width: 30%;
+  height: 70px;
+  text-align: center;
+  padding: 22px;
+  background: #0a990a;
+  font-size: 2.5rem;
+  color: white;
+  line-height: 22px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+header #h1_container #input_box {
+  display: flex;
+  background: #dbdbdb;
+  border: 1px solid #3b3b3b;
+  border-radius: 10px;
+}
+
+header #h1_container #input_box input {
+  border-radius: 10px;
+  font-size: 18px;
+  color: grey;
+  background: none;
+  border: none;
+  text-align: center;
+}
+
+header #h1_container #input_box input:focus {
+  outline: none;
+}
+
+header #h1_container #input_box #search_button {
+  width: 35px;
+  border: none;
+  background: none;
+  font-size: 18px;
+  margin-right: 10px;
+  color: #3b3b3b;
+  cursor: pointer;
+}
+
+header #h1_container #input_box #search_button:hover {
+  color: white;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  background: #3b3b3b;
+  height: 50px;
+  margin-top: 20px;
+  padding: 0px 30px 0px 30px;
+  justify-content: flex-start;
+}
+
+header nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 116px;
+}
+
+header nav ul li:hover {
+  background: #0a990a;
+}
+
+header nav ul li a {
+  color: white;
+  height: 50px;
+  margin-top: 30px;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+  transition: 300ms all;
+}
+
+header nav ul li a:hover {
+  font-size: 18px;
+}
+
+#slide_container .bxslider {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.bx-viewport {
+  height: 250px !important;
+}
+
+#about_me {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+#about_me #acordeon {
+  margin-top: 10px;
+}
+
+body.red #about_me #acordeon .ui-state-active, body.red #about_me #acordeon .ui-widget-content .ui-state-active, body.red #about_me #acordeon .ui-widget-header .ui-state-active, body.red #about_me #acordeon a.ui-button:active, body.red #about_me #acordeon .ui-button:active, body.red #about_me #acordeon .ui-button.ui-state-active:hover {
+  background: #ff4646;
+  border: 1px solid #ff4646;
+}
+
+body.blue #about_me #acordeon .ui-state-active, body.blue #about_me #acordeon .ui-widget-content .ui-state-active, body.blue #about_me #acordeon .ui-widget-header .ui-state-active, body.blue #about_me #acordeon a.ui-button:active, body.blue #about_me #acordeon .ui-button:active, body.blue #about_me #acordeon .ui-button.ui-state-active:hover {
+  background: #4646ff;
+  border: 1px solid #4646ff;
+}
+
+body.green #about_me #acordeon .ui-state-active, body.green #about_me #acordeon .ui-widget-content .ui-state-active, body.green #about_me #acordeon .ui-widget-header .ui-state-active, body.green #about_me #acordeon a.ui-button:active, body.green #about_me #acordeon .ui-button:active, body.green #about_me #acordeon .ui-button.ui-state-active:hover {
+  background: #0a990a;
+  border: 1px solid #0a990a;
+}
+
+#section2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+#section2 #articles_container {
+  display: flex;
+  flex-direction: column;
+}
+
+#section2 #articles_container #article {
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+#section2 #articles_container #article #articles_head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#section2 #articles_container #article #articles_head h3 {
+  color: grey;
+}
+
+#section2 #articles_container #article .comments {
+  margin-top: 20px;
+}
+
+body.red #section2 #articles_container #article .comments {
+  background: #ff4646;
+}
+
+body.blue #section2 #articles_container #article .comments {
+  background: #4646ff;
+}
+
+#section2 #articles_container #article .article_text {
+  margin-top: 20px;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+#section2 #articles_container #article #btn_more {
+  margin-top: 20px;
+}
+
+#section2 #articles_container #article #btn_more:hover {
+  cursor: pointer;
+  background: #0a790a;
+}
+
+body.red #section2 #articles_container #article #btn_more {
+  background: #ff4646;
+}
+
+body.red #section2 #articles_container #article #btn_more:hover {
+  cursor: pointer;
+  background: #9e2b2b;
+}
+
+body.blue #section2 #articles_container #article #btn_more {
+  background: #4646ff;
+}
+
+body.blue #section2 #articles_container #article #btn_more:hover {
+  cursor: pointer;
+  background: #3434bb;
+}
+
+#section2 #description {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+#section2 #description img {
+  margin-top: 10px;
+  width: 200px;
+}
+
+#section2 #description p {
+  font-size: 1.2rem;
+  text-align: justify;
+  margin-top: 10px;
+}
+
+#section2 #description #form {
+  margin-top: 20px;
+  border-top: 1px solid #3b3b3b;
+  display: flex;
+  flex-direction: column;
+}
+
+#section2 #description #form h2 {
+  margin-top: 20px;
+}
+
+#section2 #description #form form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #3b3b3b;
+}
+
+#section2 {
+  display: flex;
+  flex-direction: row;
+}
+
+#section2 #clock {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  width: 80%;
+}
+
+#section2 #clock #reloj {
+  margin: 0 auto;
+  margin-top: 60px;
+  border: 1px solid grey;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.534);
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 70px;
+}
+
+body.red #section2 #clock #reloj {
+  color: #ff4646;
+}
+
+body.blue #section2 #clock #reloj {
+  color: #4646ff;
+}
+
+body.green #section2 #clock #reloj {
+  color: #0a990a;
+}
+
+#contact {
+  width: 80%;
+}
+
+#contact #form {
+  width: 30%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact #form .option {
+  margin-bottom: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #3b3b3b;
+}
+
+#contact #form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #3b3b3b;
+}
+
+#contact #form .form-error {
+  border: 3px dashed #ff4646;
+  padding: px;
+  width: 98%;
+  height: 60px;
+  padding: 10px;
+  color: #3b3b3b;
+  border-radius: 10px;
+}
+
+aside {
+  background: rgba(128, 128, 128, 0.397);
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  height: 150px;
+  position: fixed;
+  top: 200px;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 0px 10px 10px 0px;
+}
+
+aside .theme {
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+aside #green {
+  background: #0a990a;
+}
+
+aside #red {
+  background: #ff4646;
+}
+
+aside #blue {
+  background: #4646ff;
+}
+
+footer {
+  width: 80%;
+  margin: 0 auto;
+  height: 50px;
+  display: flex;
+  margin-top: 30px;
+  background: rgba(73, 73, 73, 0.596);
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px 10px 0px 0px;
+}
+
+footer p {
+  color: white;
+  font-size: 1.1rem;
+}
+
+footer .social_network {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+}
+
+footer .social_network a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .subir {
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=styles.min.css.map */

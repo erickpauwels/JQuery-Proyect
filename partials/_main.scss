@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: $bodybg;
+    background-size: cover;
+    &.red{
+        @extend %red-theme;
+        header #h1_container h1 {
+            background:$red;
+        }
+        header nav ul li {
+            &:hover{
+                background: $red;
+            }
+        }
+    }
+    &.blue{
+        @extend %blue-theme;
+        header #h1_container h1 {
+            background:$blue;
+        }
+        header nav ul li {
+            &:hover{
+                background: $blue;
+            }
+        }
+    }
+    &.green{
+        background-image: $bodybg;
+        header #h1_container h1 {
+            background:$green;
+        }
+        header nav ul li {
+            &:hover{
+                background: $green;
+            }
+        }
+    }
+    #main{
+        padding: 20px;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 30px;
+        background: $clear;
+    }
+}
+
+

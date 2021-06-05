@@ -1,0 +1,87 @@
+header{
+    display: flex;
+    flex-direction: column;
+    #h1_container{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        h1{
+            width: 30%;
+            height: 70px;
+            text-align: center;
+            padding: 22px;
+            background:$green;
+            font-size: 2.5rem;
+            color: $clear;
+            line-height: 22px;
+            font-family: $font;
+        }
+        #input_box {
+            display: flex;
+            background: $ligthgrey;
+            border: 1px solid $darkgrey;
+            border-radius: 10px;
+                input{
+                    border-radius: 10px;
+                    font-size: 18px;
+                    color: $input_text;
+                    background: none;
+                    border: none;
+                    text-align: center;
+                    &:focus{
+                        outline: none;
+                    }
+                }
+                #search_button{
+                    width: 35px;
+                    border: none;
+                    background: none;
+                    font-size: 18px;
+                    margin-right: 10px;
+                    color: $darkgrey;
+                    cursor: pointer;
+                    &:hover{
+                        color: $clear;
+                    }
+                }
+        }
+    }
+    nav{
+        // display: flex;
+        ul {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            background: $darkgrey;
+            height: 50px;
+            margin-top: 20px;
+            padding: 0px 30px 0px 30px;
+            justify-content: flex-start;
+            // align-items: center;
+            li {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                // height: 100%;
+                width: 116px;
+                &:hover{
+                    background:$green;
+                }
+                    a{
+                        // margin: 0px 10px;
+                        color: $clear;
+                        // width: 100%;
+                        height: 50px;
+                        margin-top: 30px;
+                        text-decoration: none;
+                        font-family: $font;
+                        font-size: 16px;
+                        transition: 300ms all;
+                        &:hover{
+                            font-size: 18px;
+                        }
+                 }
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+// Buttons 
+%button{
+    background: $green;
+    font-size: 18px;
+    color: $clear;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top:20px;
+                &:hover {
+                    cursor: pointer;
+                    background: $hover-green
+                }
+                body.red &{
+                    background: $red;
+                    &:hover {
+                        cursor: pointer;
+                        background: $hover-red;
+                    }
+                }
+                body.blue &{
+                    background: $blue;
+                    &:hover {
+                        cursor: pointer;
+                        background: $hover-blue;
+                    }
+                }
+}
+
+// Text
+
+%aside-text {
+    font-size: 20px;
+    font-family: $font;
+    text-align: center;
+}
+
+// themes 
+
+%red-theme {
+    background-image: url(../assets/rojo.jpg);
+}
+
+%blue-theme {
+    background-image: url(../assets/cielo.jpg);
+}
+
+//h2
+
+%h2 {
+    font-size: 40px;
+    color: $darkgrey;
+    font-family: $font;
+    margin-bottom: 20px;
+}

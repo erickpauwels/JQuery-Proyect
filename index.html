@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styles.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <!-- jquery  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- momment js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/es.min.js"></script>
+    <!-- slider  -->
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <title>Proyecto JS - JQuery</title>
+  </head>
+  <body>
+    <main id="main">
+      <header>
+        <div id="h1_container">
+          <h1>Practicando JS</h1>
+          <div id="input_box">
+            <input id="search_input" autocomplete="off" type="text" placeholder="¿Que quieres buscar?">
+            <button id="search_button" class="fas fa-search"></button>
+            </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="/index.html">INICIO</a></li>
+            <!-- <li><a href="#">CALCULADORA</a></li> -->
+            <li><a href="/reloj.html">RELOJ</a></li>
+            <li><a href="/about_me.html">SOBRE MI</a></li>
+            <li><a href="/contacto.html">CONTACTO</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section id="slide_container">
+        <div class="bxslider">
+            <div><img src="/assets/hojas.jpg" alt="hojas"></div>
+            <div><img src="/assets/cielo.jpg" alt="cielo"></div>
+            <div><img src="/assets/rojo.jpg" alt="rojo"></div>
+        </div>
+      </section>
+      <section id="section2">
+        <article id="articles_container">
+            <div id="article"></div>
+        </article>
+        <div id="description">
+          <h2>¿Quién soy?</h2>
+          <img src="/assets/caracol.jpg" alt="caracol" />
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s.
+          </p>
+          <div id="form">
+              <h2>Usuario</h2>
+              <form>
+                  Nombre:<input type="text" name="user" id="name">
+                  Email:<input type="email" name="email" id="email">
+                  Contraseña:<input type="password" name="contraseña" id="password">
+                  <input type="submit" placeholder="Entrar" class="btn_form">
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <aside>
+        <div id="green" class="theme" title="Green Theme"></div>
+        <div id="red" class="theme" title="Red Theme"></div>
+        <div id="blue" class="theme" title="Blue Theme"></div>
+    </aside>
+    <footer>
+        <p>Erick Pauwels Developer</p>
+        <div class="social_network">
+            <a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook-f"></a>
+            <a href="https://twitter.com/?lang=es" target="_blank" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/" target="_blank" class="fab fa-instagram"></a>
+        </div>
+        <p>© 2021 All Rights Reserved.</p>
+        <a href="#" class="subir">Subir</a>
+    </footer>
+  </body>
+  <script src="/Js/main.js"></script>
+  <script src="/Js/bxslider.js"></script>
+  <script src="/Js/themes.js"></script>
+</html>
